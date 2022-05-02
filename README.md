@@ -1,6 +1,8 @@
 # Projeto final laboratório de SISMIC
 
-Projeto final feito para a disciplina de Laboratório Sistemas Microprocessados Digitais da UnB no primeiro semestre de 2022.
+<img src="assets/game.gif" alt="Jogo" width="50%" />
+
+Jogo de carros feito como projeto final da disciplina de Laboratório Sistemas Microprocessados Digitais da UnB no primeiro semestre de 2022.
 
 A disciplina tem o objetivo de familiarizar o aluno com a programação de microcontroladores. É estudado os principais tópicos acerca de
 programação para microcontroladores e sistemas embarcados (temporizadores, interrupções,
@@ -23,6 +25,19 @@ o jogo ter sido iniciado, é mostrado o carro do usuário e carros avançando na
 contramão. Se o usuário bater em um dos carros, ele perde e então é mostrada a
 tela de GAME OVER e emitido um bip sonoro por um buzzer indicando que o
 usuário perdeu.
+
+## Comandos bluetooth
+
+O programa aceita os seguintes comandos via bluetooth:
+
+-   Mover o carro para a esquerda: '1' (0x31)
+-   Diminuir o brilho da tela : '2' (0x32)
+-   Iniciar o jogo: '3' (0x33)
+-   Inverter as cores da tela: '4' (0x34)
+-   Aumentar o brilho da tela: '5' (0x35)
+-   Mover o carro para a direita: '6' (0x36)
+
+Para enviar esses comandos, utilizou-se o aplicativo [Serial Bluetooth Terminal](https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal).
 
 ## Conteúdos praticados
 
@@ -87,26 +102,11 @@ O projeto exercita vários dos conteúdos aprendidos durante o semestre, sendo e
 |  VCC   | 3.3 V  |
 |  I/O   |  P2.5  |
 
-## Comandos bluetooth
-
-O programa aceita os seguintes comandos via bluetooth:
-
--   Mover o carro para a esquerda: '1' (0x31)
--   Diminuir o brilho da tela : '2' (0x32)
--   Iniciar o jogo: '3' (0x33)
--   Inverter as cores da tela: '4' (0x34)
--   Aumentar o brilho da tela: '5' (0x35)
--   Mover o carro para a direita: '6' (0x36)
-
-Para enviar esses comandos, utilizou-se o aplicativo [Serial Bluetooth Terminal](https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal).
-
 ## Esquemático elétrico
 
 <img src="assets/schematic.png" alt="esquemático elétrico" width="50%" />
 
 ## Imagens
-
-<img src="assets/game.gif" alt="Jogo" width="50%" />
 
 <img src="assets/start-game.jpg" alt="Tela de start game" width="50%" />
 
