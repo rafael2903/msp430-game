@@ -1,6 +1,8 @@
 # Projeto final laboratório de SISMIC
 
-<img src="assets/game.gif" alt="Jogo" width="50%" />
+<p align="center">
+    <img src="assets/game.gif" alt="Jogo" width="60%" />
+</p>
 
 Jogo de carros feito como projeto final da disciplina de Laboratório Sistemas Microprocessados Digitais da UnB no primeiro semestre de 2022.
 
@@ -104,14 +106,24 @@ O projeto exercita vários dos conteúdos aprendidos durante o semestre, sendo e
 
 ## Esquemático elétrico
 
-<img src="assets/schematic.png" alt="esquemático elétrico" width="50%" />
+<p align="center">
+    <img src="assets/schematic.png" alt="esquemático elétrico" width="60%" />
+</p>
 
 ## Imagens
 
-<img src="assets/start-game.jpg" alt="Tela de start game" width="50%" />
+<p align="center">
+    <img src="assets/start-game.jpg" alt="Tela de start game" width="60%" />
+</p>
 
-<img src="assets/playing.png" alt="Tela do jogo rodando" width="50%" />
+<p align="center">
+    <img src="assets/playing.png" alt="Tela do jogo rodando" width="60%" />
+</p>
 
-<img src="assets/game-over.png" alt="Tela de game over" width="50%" />
+<p align="center">
+    <img src="assets/game-over.png" alt="Tela de game over" width="60%" />
+</p>
 
-<img src="assets/circuit.jpg" alt="Circuito" width="50%" />
+<p align="center">
+    <img src="assets/circuit.jpg" alt="Circuito" width="60%" />
+</p>
