@@ -102,33 +102,16 @@ Para enviar esses comandos, utilizou-se o aplicativo [Serial Bluetooth Terminal]
 
 ## Esquemático elétrico
 
-<figure align="center"> 
-  <img src="assets/schematic.png" alt="esquemático elétrico" width="50%" />
-</figure>
+<img src="assets/schematic.png" alt="esquemático elétrico" width="50%" />
 
 ## Imagens
 
-<figure align="center"> 
-  <img src="assets/game.gif" alt="Jogo" width="50%" />
-  <!-- <figcaption  align="center"><p>Jogo</p></figcaption> -->
-</figure>
+<img src="assets/game.gif" alt="Jogo" width="50%" />
 
-<figure align="center"> 
-  <img src="assets/start-game.jpg" alt="Tela de start game" width="50%" />
-  <!-- <figcaption  align="center"><p>Tela de start game</p></figcaption> -->
-</figure>
+<img src="assets/start-game.jpg" alt="Tela de start game" width="50%" />
 
-<figure align="center"> 
-  <img src="assets/playing.png" alt="Tela do jogo rodando" width="50%" />
-  <!-- <figcaption  align="center"><p>Tela do jogo rodando</p></figcaption> -->
-</figure>
+<img src="assets/playing.png" alt="Tela do jogo rodando" width="50%" />
 
-<figure align="center"> 
-  <img src="assets/game-over.png" alt="Tela de game over" width="50%" />
-  <!-- <figcaption  align="center"><p>Tela de game over</p></figcaption> -->
-</figure>
+<img src="assets/game-over.png" alt="Tela de game over" width="50%" />
 
-<figure align="center"> 
-  <img src="assets/circuit.jpg" alt="Circuito" width="50%" />
-  <!-- <figcaption  align="center"><p>Circuito</p></figcaption> -->
-</figure>
+<img src="assets/circuit.jpg" alt="Circuito" width="50%" />
