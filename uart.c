@@ -2,11 +2,8 @@
 
 void config_uart() {
     P3DIR |= BIT3;
-    P3SEL |= BIT3;
-
     P3DIR &= ~BIT4;
-    P3SEL |= BIT4;
-    P3REN &= ~BIT3;
+    P3SEL |= BIT3 | BIT4;
 
     UCA0CTL1 |= UCSWRST; // Desliga o modulo
 
