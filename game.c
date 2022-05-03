@@ -80,7 +80,7 @@ void move_player_car_left() {
 }
 
 void create_new_cars() {
-    enqueue_car(0, player_car.page, DOWN_CAR);
+    enqueue_car(0, player_car.page, DOWN_CAR); // always create a new car in the same user road
 
     uint8_t row;
 
