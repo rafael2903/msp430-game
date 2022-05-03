@@ -82,22 +82,22 @@ void move_player_car_left() {
 void create_new_cars() {
     enqueue_car(0, player_car.page, DOWN_CAR); // always create a new car in the same user road
 
-    uint8_t row;
+    uint8_t road;
 
     switch (player_car.page) {
     case ROAD_1:
-        row = rand() % 2 ? ROAD_2 : ROAD_3;
+        road = rand() % 2 ? ROAD_2 : ROAD_3;
         break;
     case ROAD_2:
-        row = rand() % 2 ? ROAD_1 : ROAD_3;
+        road = rand() % 2 ? ROAD_1 : ROAD_3;
         break;
     case ROAD_3:
-        row = rand() % 2 ? ROAD_1 : ROAD_2;
+        road = rand() % 2 ? ROAD_1 : ROAD_2;
         break;
     default:
         break;
     }
-    enqueue_car(0, row, DOWN_CAR);
+    enqueue_car(0, road, DOWN_CAR);
 }
 
 int collided(Car* game_car) {
