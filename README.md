@@ -4,7 +4,7 @@
     <img src="assets/game.gif" alt="Jogo" width="60%" />
 </p>
 
-Jogo desenvolvido utilizado o microcontrolador **MSP430F5529** feito como projeto final da disciplina de Laboratório Sistemas Microprocessados Digitais da UnB no primeiro semestre de 2022.
+Jogo desenvolvido utilizado o microcontrolador **MSP430F5529** feito como projeto final da disciplina de Laboratório de Sistemas Microprocessados da UnB no primeiro semestre de 2022.
 
 A disciplina tem o objetivo de familiarizar o aluno com a programação de microcontroladores. É estudado os principais tópicos acerca de
 programação para microcontroladores e sistemas embarcados (temporizadores, interrupções,
