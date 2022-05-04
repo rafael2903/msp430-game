@@ -10,7 +10,7 @@
 #define _2_SECONDS  65536
 
 void config_timers();
-void delay(unsigned int time);
+void wait(unsigned int time);
 void start_buzzer();
 void stop_buzzer();
 

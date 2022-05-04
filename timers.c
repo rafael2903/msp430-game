@@ -6,7 +6,7 @@ void config_timer_A0() {
     TA0CCTL0 = CCIE;
 }
 
-void delay(unsigned int time) {
+void wait(unsigned int time) {
     TA1CCR0 = time;
     TA1CTL = TASSEL__ACLK | MC__UP | TACLR; // 32768 Hz
 

@@ -56,12 +56,12 @@ void show_game_over_scene() {
         print_car(&player_car);
         oled_update_screen();
         start_buzzer();
-        delay(_1_2_SECOND);
+        wait(_1_2_SECOND);
 
         oled_clear_screen();
         oled_update_screen();
         stop_buzzer();
-        delay(_1_2_SECOND);
+        wait(_1_2_SECOND);
     }
 }
 
