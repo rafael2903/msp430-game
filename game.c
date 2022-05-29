@@ -46,11 +46,11 @@ void print_game_over_text() {
 }
 
 void show_game_over_scene() {
-    unsigned int i;
+    unsigned int i = 4;
 
     oled_clear_screen();
 
-    for (i = 4; i != 0; i--) {
+    while (i--) {
         print_game_over_text();
         print_car(collided_car);
         print_car(&player_car);
@@ -104,7 +104,7 @@ int collided(Car* game_car) {
     return (
         game_car->column + CAR_HEIGHT >= PLAYER_CAR_COLUMN &&
         game_car->page == player_car.page
-        );
+    );
 }
 
 void move_car_forward(Car* car) {

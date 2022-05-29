@@ -121,11 +121,11 @@ void config_oled() {
 }
 
 void oled_print_area(uint8_t start_column, uint8_t start_page, uint8_t n_columns, uint8_t n_pages, uint8_t* data) {
-    int i;
+    int i = n_pages;
     uint8_t* cursor = buffer.content + (start_page << 7) + start_column;
     config_dma(DMASRCINCR_3); // Ponteiro fonte, incrementar
 
-    for (i = 0; i < n_pages; i++) {
+    while (i--) {
         dma_transfer(data, cursor, n_columns);
         cursor += 128;
         data += n_columns;
@@ -133,11 +133,11 @@ void oled_print_area(uint8_t start_column, uint8_t start_page, uint8_t n_columns
 }
 
 void oled_clear_area(uint8_t start_column, uint8_t start_page, uint8_t n_columns, uint8_t n_pages) {
-    int i;
+    int i = n_pages;
     uint8_t* cursor = buffer.content + (start_page << 7) + start_column;
     config_dma(DMASRCINCR_0); // Ponteiro fonte, fixo
 
-    for (i = 0; i < n_pages; i++) {
+    while (i--) {
         dma_transfer(&ZERO, cursor, n_columns);
         cursor += 128;
     }
