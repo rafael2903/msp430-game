@@ -1,4 +1,4 @@
-# Projeto final laboratório de SISMIC
+# Projeto final laboratório de SISMIC - Jogo para microcontrolador MSP430
 
 <p align="center">
     <img src="assets/game.gif" alt="Jogo" width="60%" />
